@@ -51,3 +51,53 @@ p {
         padding: 9rem 0;
     }
 }
+
+// Bravicon Calhas custom identity
+.bravicon-site { font-family:'Montserrat',sans-serif; color:#10233f; overflow-x:hidden; }
+.bravicon-site .page-section { padding:5.5rem 0; }
+.section-kicker { color:#f57c00; font-weight:800; text-transform:uppercase; letter-spacing:.08em; font-size:.82rem; margin-bottom:.7rem; }
+.bravicon-site .section-heading { color:#0a376d; font-weight:800; text-transform:none !important; }
+.bravicon-site .section-subheading { font-family:'Montserrat',sans-serif !important; font-style:normal !important; max-width:760px; margin-left:auto; margin-right:auto; line-height:1.7; }
+.brand-mark { display:inline-grid; place-items:center; width:2.25rem; height:2.25rem; border-radius:50%; background:#fff; color:#0b4f97; margin-right:.55rem; font-weight:900; }
+.brand-name { color:#fff; font-weight:800; letter-spacing:.03em; }
+.brand-accent { color:#ff8a00; font-weight:800; letter-spacing:.03em; }
+.bravicon-site #mainNav { background:#062c58; box-shadow:0 4px 22px rgba(0,0,0,.12); }
+.bravicon-site #mainNav .nav-link { font-weight:700; }
+.bravicon-site #mainNav .nav-link:hover { color:#ff8a00; }
+.bravicon-hero { min-height:760px; display:flex; align-items:center; text-align:left !important; background:linear-gradient(125deg,#041c38 0%,#0b4f97 60%,#0d6db8 100%) !important; position:relative; overflow:hidden; }
+.bravicon-hero:after { content:''; position:absolute; right:-8rem; bottom:-12rem; width:36rem; height:36rem; border:5rem solid rgba(255,138,0,.16); border-radius:50%; }
+.bravicon-hero .container { position:relative; z-index:2; }
+.bravicon-hero .eyebrow { color:#ffb347; font-weight:800; text-transform:uppercase; letter-spacing:.12em; margin-bottom:1rem; }
+.bravicon-hero .masthead-heading { font-size:clamp(2.4rem,6vw,5rem) !important; line-height:1.02 !important; text-transform:none !important; margin-bottom:1.5rem !important; max-width:900px; }
+.hero-copy { color:#e8f2ff; font-size:1.22rem; line-height:1.7; max-width:760px; margin-bottom:2rem; }
+.hero-shape { width:270px; height:270px; border:2px solid rgba(255,255,255,.2); border-radius:40px; display:grid; place-items:center; color:#fff; transform:rotate(5deg); background:rgba(255,255,255,.08); position:relative; }
+.hero-shape .water-line { position:absolute; bottom:55px; width:150px; height:12px; border-radius:20px; background:#ff8a00; box-shadow:0 25px 0 rgba(255,255,255,.7); }
+.btn-primary { background-color:#f57c00 !important; border-color:#f57c00 !important; color:#fff !important; }
+.btn-primary:hover { background-color:#d96800 !important; border-color:#d96800 !important; }
+.service-card { background:#fff; border:1px solid #e2eaf3; border-radius:20px; padding:2rem; box-shadow:0 12px 35px rgba(12,55,103,.07); transition:.2s ease; }
+.service-card:hover { transform:translateY(-5px); box-shadow:0 18px 44px rgba(12,55,103,.13); }
+.service-icon { width:64px; height:64px; display:grid; place-items:center; border-radius:18px; background:#eaf3ff; color:#0b4f97; font-size:1.55rem; margin-bottom:1.25rem; }
+.service-card h3 { color:#0a376d; font-size:1.15rem; font-weight:800; }
+.service-card p { color:#66778b; line-height:1.7; }
+.service-link { color:#e56f00; font-weight:800; text-decoration:none; }
+.benefit-list { list-style:none; padding:0; margin:2rem 0 0; }
+.benefit-list li { margin:.9rem 0; font-weight:700; }
+.benefit-list .check { display:inline-grid; place-items:center; width:28px; height:28px; border-radius:50%; background:#eaf3ff; color:#0b4f97; margin-right:.75rem; }
+.info-panel { background:#0a376d; color:#fff; border-radius:26px; padding:2.5rem; box-shadow:0 18px 45px rgba(10,55,109,.25); }
+.info-panel-top { display:flex; gap:1rem; align-items:center; color:#ffb347; font-size:1.25rem; margin-bottom:1.2rem; }
+.info-panel p { color:#d9e8f7; line-height:1.8; }
+.area-card { background:#f5f9ff; border-radius:18px; padding:2rem 1.5rem; height:100%; }
+.area-card svg { color:#f57c00; font-size:2rem; margin-bottom:1rem; }
+.area-card h3 { color:#0a376d; font-size:1.2rem; font-weight:800; }
+.area-card p { color:#66778b; margin:0; }
+.contact-cta { background:linear-gradient(120deg,#f57c00,#ff9f2c); color:#fff; }
+.contact-cta h2 { font-weight:900; font-size:clamp(2rem,5vw,3.5rem); }
+.contact-cta p { max-width:760px; margin:1rem auto 2rem; font-size:1.12rem; }
+.footer-link { color:#0b4f97; text-decoration:none; font-weight:700; }
+.whatsapp-float { position:fixed; right:20px; bottom:20px; width:62px; height:62px; border-radius:50%; display:grid; place-items:center; background:#25d366; color:#fff; font-size:2rem; box-shadow:0 10px 28px rgba(0,0,0,.25); z-index:1040; text-decoration:none; }
+.whatsapp-float:hover { color:#fff; transform:scale(1.05); }
+@media (max-width:991.98px) {
+    .bravicon-hero { min-height:700px; text-align:center !important; }
+    .hero-copy { margin-left:auto; margin-right:auto; }
+    .bravicon-site .page-section { padding:4.25rem 0; }
+}
